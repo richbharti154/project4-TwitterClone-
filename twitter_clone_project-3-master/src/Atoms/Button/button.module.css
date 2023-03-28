@@ -1,0 +1,16 @@
+.button {
+    width: 300px;
+    height: 40px;
+    margin: 12px;
+    padding: 0,16px;
+    cursor: pointer;
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    white-space: nowrap;
+    border: 0 solid black;
+    border-radius: 30px;
+    background-color: white;
+    color: #0f1419;
+}

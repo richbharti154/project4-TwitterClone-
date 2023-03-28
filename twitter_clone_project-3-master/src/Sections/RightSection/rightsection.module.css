@@ -1,0 +1,20 @@
+.mainComponent{
+    display: flex;
+    flex-direction: row;
+    background-color: black;    
+}
+.searchSection{
+    background-color: black;
+    color: white;
+    width: 370px;
+    height: 900px;
+    /* overflow: hidden; */
+    padding-left: 15px;
+}
+.TrendingSection{
+    padding-left: 18px;    
+}
+.follow{
+    padding-left: 20px;
+    padding-top: 390px;
+ }

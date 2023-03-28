@@ -1,0 +1,164 @@
+.middleSection{
+    margin-left: 250px;
+    color: white;
+    background-color: black;
+    width: 36.25rem;
+    height: 57rem;
+    border-left: 0.01rem solid grey;
+    border-right: 0.01rem solid grey;
+    overflow: auto;
+}
+.middleSection::-webkit-scrollbar{
+    display: none;
+}
+.mainComponent{
+    display: flex;
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin-left: 1rem;
+}
+.profileIcon{
+    font-size: 38px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.Name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.BadgeIcon{
+    color: #2394e0;
+    font-size: 22px;
+}
+.smallName{
+    font-size: 12px;
+    color: lightgray;
+}
+.more{
+    padding-left: 9rem;
+}
+.border{
+    border-bottom: 0.01em solid rgb(159, 156, 156);
+
+}
+.caption{
+    margin-left: 1rem;
+    width: 35rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3.9rem;
+    font-size: 15px;
+    color: lightgray;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 2rem;
+    
+}   
+.Paragraph{
+    padding: 0px;
+    margin: 0px;
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Iconss{
+    font-size: 20px;
+}
+.Image{
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-bottom: 1rem;
+    margin-left: 3.2rem;
+    outline: none;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.searchButton{
+    align-items: stretch;
+    width: 500px;
+    height: 60px;
+    margin: 12px;
+    background-color: black;
+    color: white;
+    border: 0 solid black;
+    font-size: 16px;
+    background-color: black;
+    padding-left: 5px;
+    margin-left:5px ;
+    letter-spacing: 1px;
+    margin-top: 10px; 
+    margin: 0px;
+}
+.searchButton:focus{
+    outline: none;
+}
+
+.Icon{
+    font-size: 38px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    padding-left: 1rem;
+}
+.bottom2{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+    color: #2394e0;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 45px;
+    font-size: 20px;
+}
+.tweetButton{
+    padding: 0px  ;
+    margin:0px ;
+}
+.Button{
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 15px;
+    border: 0 solid black;
+    border-radius: 30px;
+    background-color: #2394e0;
+    color: white;
+    font-weight: bold;
+    margin-left: 150px ;
+    margin-bottom: 2rem;
+}
+.fileUpload{
+    display: none;
+}
+
+.header2{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin-left: 1rem;
+}
+.profileIcon2{
+    font-size: 24px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,17 @@
+.searchButton{
+    align-items: stretch;
+    width: 345px;
+    height: 43px;
+    margin: 12px;
+    background-color: #0F1419;
+    color: white;
+    border-radius: 35px;
+    border: 0 solid black;
+    font-size: 16px;
+    background-color: #2e3033;
+    padding-left: 14px;
+}
+.searchButton:focus{
+    outline: none;
+    border: 1px solid #2394e0 ;
+}

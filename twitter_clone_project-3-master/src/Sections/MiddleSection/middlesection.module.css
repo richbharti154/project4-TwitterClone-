@@ -1,0 +1,35 @@
+.mainComponent{
+    display: flex;
+    flex-direction: row;
+    background-color: black;    
+}
+.scrollerSection{
+    background-color: black;
+    color: white;
+    border: 0.01em  rgb(142, 140, 140) solid;
+    width: 580px;
+    direction:ltr;
+    height: 1000px;
+    overflow: auto;
+    margin-left: 250px;
+}
+.scrollerSection::-webkit-scrollbar{
+    display: none;
+}
+.heading{
+    width: 560px;
+    height: 70px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding: 10px;
+    border-bottom: 0.01em solid rgb(159, 156, 156);
+    position: fixed;
+    backdrop-filter: blur(10px);
+}
+
+.TweetSection {
+    padding-top: 90px;
+    padding-left: 20px;
+    border-bottom: 0.01em solid rgb(159, 156, 156);
+    height: 130px;
+}

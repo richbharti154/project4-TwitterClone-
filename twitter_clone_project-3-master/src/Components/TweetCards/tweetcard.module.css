@@ -1,0 +1,101 @@
+.Image{
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-bottom: 1rem;
+    margin-left: 3.2rem;
+    outline: none;
+    
+}
+.header{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    margin-left: 1rem;
+}
+.profileIcon{
+    font-size: 38px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.Name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.BadgeIcon{
+    color: #2394e0;
+    font-size: 22px;
+}
+.smallName{
+    font-size: 12px;
+    color: lightgray;
+}
+.more{
+    padding-left: 9rem;
+}
+.border{
+    border-bottom: 0.01em solid rgb(159, 156, 156);
+
+}
+.caption{ 
+    margin-left: 1rem;
+    width: 35rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3.9rem;
+    font-size: 15px;
+    color: lightgray;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 3rem;
+}   
+.Paragraph{
+    padding: 0px;
+    margin: 0px;
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Icon{
+    font-size: 20px;
+}
+.cardContainer{
+    z-index: -1;
+}
+.DialogueContainer{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 0.05rem solid white;
+    color: white;
+    
+ 
+}
+.DialogueBox{
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 60px;
+    margin-left: 300px;
+   
+}
+.closeButton{
+    outline: none;
+    border :0px solid black;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    float: right;
+    padding-right: 0.9rem;
+    padding-top: 1rem;
+}

@@ -1,0 +1,139 @@
+.mainComponent{
+    display: flex;
+    background-color: black;
+}
+.middleSection{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 250px;
+    color: white;
+    width: 36.25rem;
+    height: 57rem;
+    border-left: 0.01rem solid grey;
+    border-right: 0.01rem solid grey;
+    overflow: auto;
+   
+}
+.middleSection::-webkit-scrollbar{
+    display: none;
+}
+.backIcon{
+    font-size: 1.4rem;
+    width: 35.2rem;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    backdrop-filter: blur(40px);
+    
+}
+.nameTag{
+    padding: 0px;
+    margin:0px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.profileBackground{
+    z-index: -1;
+    background-color: rgb(63, 71, 74);
+    height: 12rem;
+    margin-top: 3.5rem;
+}
+.profileIcon{
+    font-size: 9rem;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 7rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.profileContent{
+    color: grey;
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+    border-bottom:0.01rem solid grey ;    
+}
+.namepTag{
+padding: 0px;
+margin: 0px;
+}
+.button{
+    float: right;
+    margin-right: 2.5rem;
+    margin-top: 13rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 0.05rem solid white;
+    padding: 0.6rem;
+    font-weight: bold;
+    outline: none;    
+}
+.bottom{
+    display: flex;
+    gap: 5rem;
+}
+.active{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #2394e0;
+    text-decoration-thickness: 0.4rem;
+}
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.5rem;
+}
+.cardName{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    letter-spacing: 0.01rem;
+}
+.cardInnerName{
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+}
+.cardIcon{
+    font-size: 2rem;
+    padding-right: 0.2rem;
+}
+.Image{
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-bottom: 1rem;
+    margin-left: 3.2rem;
+}
+.cardBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    color: lightgray;
+    gap:3.5rem;
+    margin-left: 2rem;
+
+}
+.cardBottomIcon{
+    font-size: 1.2rem;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.tweetText{
+    margin-left: 1.5rem;
+}
+.border{
+    border-bottom: 0.01em solid rgb(159, 156, 156);
+    padding: 0px;
+    margin: 0px;
+
+}

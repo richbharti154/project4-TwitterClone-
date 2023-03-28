@@ -1,0 +1,139 @@
+.container{
+    background-color: black;
+    height: 535.33px;
+    width:  583.33px;
+    align-items: stretch;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-left: 50px ;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 16px;
+    
+    
+}
+.mainComponent{
+    padding-bottom:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303438;
+
+}
+.paragraph1{
+    color: white;
+    font-weight: bold;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+}
+.heading{
+    color: white;
+}
+.inputfieldone{
+    color: white;
+}
+.dob{
+    color: white;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+.paragraphDob{
+    font-size: 14px;
+    margin-top: 1px;
+    padding-top: 1px;
+    
+}
+.headingDob{
+    margin: 12px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+
+}
+.dobParagraph{
+    color:rgb(198, 185, 185);
+    padding-left: 8px;
+}
+.inputfieldtwo{
+   font-size: 70px;    
+   align-items: stretch;
+   width: 298.67px;
+   height: 56px;
+   margin: 12px;
+   background-color: #0F1419;
+   color: white;
+   border: 0.01em solid rgb(184, 175, 175);
+}
+.InputDob{
+    align-items: stretch;
+    width: 298.67px;
+    height: 56px;
+    margin: 12px;
+    background-color: #0F1419;
+    color: white;
+    border: 0.01em solid rgb(184, 175, 175);
+}
+
+@media (max-width:790px){
+    .container{
+        background-color: black;
+        height: 535.33px;
+        width:  483.33px;
+        align-items: stretch;
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: relative;
+        margin-top: 0px;
+        border-radius: 16px;
+        
+    }
+    .mainComponent{
+        padding-bottom:25px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: #303438;
+        height: 100vh;
+        width: 100%;
+    }    
+}
+
+@media (max-width:400px) {
+   
+    .mainComponent{
+        padding-bottom:25px; 
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center; 
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+       
+    }
+    .container{
+        background-color: black;
+        height: 635.33px;
+        height: 599px;
+        width:  383.33px;
+        align-items: stretch;
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: relative;
+        border-radius: 16px;        
+    }   
+}

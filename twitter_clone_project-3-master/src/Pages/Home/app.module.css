@@ -1,0 +1,115 @@
+body{
+    background-color: #303438;
+}
+ .container{
+    background-color: none;
+    background-color: black;
+    height: 535.33px;
+    width:  583.33px;
+    align-items: stretch;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 16px;
+    
+}
+.mainComponent{
+    padding-bottom:25px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #303438;
+    height: 100vh;
+    width: 100%;
+}
+
+.Icon{
+    padding-bottom: 0px;
+    margin-bottom:0px ;
+}
+.heading{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.stylIcon{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+.heading{
+    color: white;
+}
+.bottom{
+    color: white;
+}
+.link{
+    color: #1D9BF0;
+    text-decoration: none;
+}
+
+@media (max-width:790px){
+    .container{
+        background-color: black;
+        height: 535.33px;
+        width:  483.33px;
+        align-items: stretch;
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: relative;
+        margin-top: 0px;
+        border-radius: 16px;
+    }
+    .mainComponent{
+        padding-bottom:25px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: #303438;
+        height: 100vh;
+        width: 100%;
+    }    
+}
+
+@media (max-width:400px) {
+   
+    .mainComponent{
+        padding-bottom:25px; 
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center; 
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+       
+    }
+    .container{
+        background-color: black;
+        height: 635.33px;
+        height: 599px;
+        width:  383.33px;
+        align-items: stretch;
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: relative;
+        border-radius: 16px;        
+    }   
+}
